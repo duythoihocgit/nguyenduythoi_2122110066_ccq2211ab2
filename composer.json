@@ -1,0 +1,10 @@
+{
+  "name": "nguyenduythoi/shop-thoi-trang",
+  "description": "Xay dung website ban hang - Thay Loi day",
+  "autoload": {
+    "psr-4": {
+      "Src\\": "application/"
+    }
+  },
+  "require": {}
+}
