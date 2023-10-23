@@ -1,10 +1,23 @@
 {
   "name": "nguyenduythoi/shop-thoi-trang",
   "description": "Xay dung website ban hang - Thay Loi day",
+  "authors":[
+    {
+      "name":"Nguyen Duy Thoi",
+      "email":"nguyenduythoi@gmail.com"
+    }
+  ],
   "autoload": {
     "psr-4": {
-      "Src\\": "application/"
-    }
+      "App\\":"app/"
+    },
+    "files":[
+      "./app/route.php",
+      "./config/database.php"
+    ]
   },
-  "require": {}
+  "require": {
+    "illuminate/database": "^10.26",
+    "illuminate/events": "^10.26"
+  }
 }
